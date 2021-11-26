@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+      margin: 100px auto;
+      width: 400px;
+   /* box-sizing: border-box; */
+      height: 100%;
+      text-align: center;
+    
+      flex-direction: column;
+
+}
+#main{
+   
+    justify-content: center;
+	width: 400px;
+	
+    text-align: center;
+    box-sizing: border-box;
+	
+}
+#Add-Notes{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           
+}
+#input{
+        margin-right: 83px;
+        border-radius: 5px;
+        padding-left: 7px;
+        height: 30px;
+       /* outline: none; */
+        font-weight: 700;
+        
+        
+}
+#add{
+        padding: 0px 10px; /* what happend with three parameter*/
+        border-radius: 5px;
+        height: 30px;
+        outline: none;
+        width: 90px;
+        background-color: white;
+        font-weight: 700;
+        cursor: pointer;
+    }
+    .add:hover{   /**/
+        opacity: 0.8;
+    }
+    .section,h2{
+        border: 2px solid black;
+        margin-top: 30px;
+        padding: 15px;
+    }
+    #container{
+        
+        box-sizing: border-box;
+        width: 400px;
+        
+        
+    }
+    .content{
+         display: flex;
+         justify-content: space-between;
+        width: 400px;
+    }
+  
+   
+    .list_item{
+          width: 299px;
+          height: 50px;
+          box-sizing: border-box;
+          border: 2px solid black;
+          flex: 1 1 0%;
+    }
+    
+.content .actions {
+	display: flex;
+    padding: 0px;
+	}
+.content .actions button {
+        cursor: pointer;
+        padding: 0px 11px;
+        font-size: 5px;
+        font-weight: 600;
+        transition: 0.4s;
+        background-color: white;
+    }
+    .content .actions button:hover {
+        opacity: 0.6;
+    } 
+    
