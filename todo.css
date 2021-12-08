@@ -7,16 +7,16 @@
 body{
       margin: 100px auto;
       width: 400px;
-   /* box-sizing: border-box; */
+      box-sizing: border-box;
       height: 100%;
       text-align: center;
     
-      flex-direction: column;
+      /*flex-direction: column;*/
 
 }
 #main{
    
-    justify-content: center;
+  /*justify-content: center; */
 	width: 400px;
 	
     text-align: center;
@@ -24,8 +24,8 @@ body{
 	
 }
 #Add-Notes{
-           display: flex;
-           justify-content: center;
+          /* display: flex;
+           justify-content: center;*/
            align-items: center;
            
 }
@@ -34,13 +34,13 @@ body{
         border-radius: 5px;
         padding-left: 7px;
         height: 30px;
-       /* outline: none; */
+        outline: none;
         font-weight: 700;
         
         
 }
 #add{
-        padding: 0px 10px; /* what happend with three parameter*/
+        padding: 0px 10px;
         border-radius: 5px;
         height: 30px;
         outline: none;
@@ -49,7 +49,7 @@ body{
         font-weight: 700;
         cursor: pointer;
     }
-    .add:hover{   /**/
+    .add:hover{
         opacity: 0.8;
     }
     .section,h2{
@@ -58,25 +58,23 @@ body{
         padding: 15px;
     }
     #container{
-        
-        box-sizing: border-box;
         width: 400px;
+        box-sizing: border-box;
         
         
-    }
+        }
+
     .content{
          display: flex;
-         justify-content: space-between;
-        width: 400px;
-    }
+         
+         }
   
    
     .list_item{
           width: 299px;
           height: 50px;
-          box-sizing: border-box;
           border: 2px solid black;
-          flex: 1 1 0%;
+          
     }
     
 .content .actions {
@@ -90,6 +88,7 @@ body{
         font-weight: 600;
         transition: 0.4s;
         background-color: white;
+        
     }
     .content .actions button:hover {
         opacity: 0.6;
