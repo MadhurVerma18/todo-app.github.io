@@ -1,8 +1,6 @@
 let inp;
 let i = 0;
 var keys = Object.keys(localStorage);
-console.log(keys);
-
 let keylength = keys.length;
 if (keylength == 0) {
   inp = 1;
@@ -10,7 +8,6 @@ if (keylength == 0) {
   var max = Math.max(...keys);
   inp = max + 1;
 }
-console.log(keylength);
 
 let form = document.querySelector("#Add-Notes");
 let input = document.querySelector("#input");

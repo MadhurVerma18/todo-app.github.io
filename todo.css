@@ -10,22 +10,14 @@ body{
       box-sizing: border-box;
       height: 100%;
       text-align: center;
-    
-      /*flex-direction: column;*/
-
 }
 #main{
-   
-  /*justify-content: center; */
-	width: 400px;
-	
+   width: 400px;
     text-align: center;
     box-sizing: border-box;
 	
 }
 #Add-Notes{
-          /* display: flex;
-           justify-content: center;*/
            align-items: center;
            
 }
